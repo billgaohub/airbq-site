@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="zh-CN" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIRBQ Intelligent Infrastructure — AI-Native Portal</title>
+    <title>AIRBQ 智能基建 — AI 原生门户</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,8 +30,8 @@
 
     <!-- Language Switcher -->
     <div class="absolute top-4 right-4 z-50">
-        <a href="/zh/" class="px-3 py-1.5 text-xs font-semibold bg-gray-900/80 text-gray-400 rounded-full border border-gray-800 hover:text-indigo-400 hover:border-indigo-500/30 transition">
-            中文
+        <a href="/" class="px-3 py-1.5 text-xs font-semibold bg-gray-900/80 text-gray-400 rounded-full border border-gray-800 hover:text-indigo-400 hover:border-indigo-500/30 transition">
+            English
         </a>
     </div>
 
@@ -39,20 +39,20 @@
     <header class="relative py-24 overflow-hidden border-b border-gray-900 z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
             <span class="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-semibold bg-indigo-500/10 text-indigo-400 rounded-full border border-indigo-500/20">
-                ⚡ Intelligent Infrastructure Portal
+                ⚡ 智能基建门户
             </span>
             <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
-                AIRBQ <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">Infrastructure</span>
+                AIRBQ <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent">智能基建</span>
             </h1>
             <p class="text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-                A unified, AI-native software ecosystem bridging cognitive decisions, predictive scheduling advisors, and real-world physical transactions.
+                统一的 AI 原生软件生态系统，连接认知决策、预测调度顾问与现实世界物理事务。
             </p>
             <div class="flex flex-wrap justify-center gap-4 pt-4">
                 <a href="#simulator" class="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full font-semibold transition glow-indigo">
-                    Try SAGA Simulator
+                    体验 SAGA 模拟器
                 </a>
                 <a href="#portfolio" class="px-6 py-3 bg-gray-900 hover:bg-gray-800 text-gray-300 rounded-full font-semibold transition border border-gray-800">
-                    Explore Ecosystem Map
+                    探索生态地图
                 </a>
             </div>
         </div>
@@ -64,9 +64,9 @@
         <!-- Interactive SAGA Simulator Section -->
         <section id="simulator" class="space-y-8 scroll-mt-24">
             <div class="text-center space-y-2">
-                <h2 class="text-3xl font-bold text-white tracking-tight">SAGA Transaction Simulator</h2>
+                <h2 class="text-3xl font-bold text-white tracking-tight">SAGA 事务模拟器</h2>
                 <p class="text-gray-400 max-w-2xl mx-auto">
-                    Experience AIRBQ's core task coordinator in action, orchestrating real-world state pipelines with automated failure rollbacks.
+                    体验 AIRBQ 核心任务协调器的实际运行，编排现实世界状态管道并自动处理失败回滚。
                 </p>
             </div>
 
@@ -74,10 +74,10 @@
                 <!-- Action Row -->
                 <div class="flex flex-wrap justify-center gap-4">
                     <button id="btn-success" class="px-5 py-2.5 bg-emerald-600/20 hover:bg-emerald-600/30 text-emerald-400 rounded-xl font-semibold border border-emerald-500/20 transition">
-                        Simulate Commit (Success)
+                        模拟提交（成功）
                     </button>
                     <button id="btn-rollback" class="px-5 py-2.5 bg-rose-600/20 hover:bg-rose-600/30 text-rose-400 rounded-xl font-semibold border border-rose-500/20 transition">
-                        Simulate Rollback (Failure)
+                        模拟回滚（失败）
                     </button>
                 </div>
 
@@ -85,12 +85,12 @@
                 <div class="p-6 rounded-2xl bg-gray-950/60 border border-gray-900 flex flex-col items-center justify-center min-h-[160px] text-center space-y-4">
                     <div class="flex items-center gap-3">
                         <span id="saga-badge" class="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-semibold bg-gray-800 text-gray-400 rounded-full border border-gray-700 uppercase">
-                            🔴 IDLE
+                            🔴 空闲
                         </span>
-                        <span id="saga-txid" class="text-xs text-gray-600 font-mono">TX-ID: NULL</span>
+                        <span id="saga-txid" class="text-xs text-gray-600 font-mono">事务号: 无</span>
                     </div>
                     <p id="saga-log" class="text-sm text-gray-400 font-mono max-w-lg leading-relaxed">
-                        Select a simulation type above to trigger the SAGA coordinator protocol pipeline.
+                        选择上方的模拟类型，触发 SAGA 协调器协议流水线。
                     </p>
                 </div>
             </div>
@@ -99,9 +99,9 @@
         <!-- Ecosystem Domain Matrix Section -->
         <section id="portfolio" class="space-y-12 scroll-mt-24">
             <div class="text-center space-y-2">
-                <h2 class="text-3xl font-bold text-white tracking-tight">Unified Information Architecture</h2>
+                <h2 class="text-3xl font-bold text-white tracking-tight">统一信息架构</h2>
                 <p class="text-gray-400 max-w-2xl mx-auto">
-                    One Core Engine — Multiple Specialized Gateways. Explore the domain layout mapping to the unified system.
+                    一个核心引擎 — 多个专业网关。探索域名布局与统一系统的映射关系。
                 </p>
             </div>
 
@@ -112,14 +112,14 @@
                         <div class="flex items-center justify-between">
                             <h3 class="text-2xl font-bold text-white">airbq.com</h3>
                             <span class="px-2.5 py-0.5 text-xs font-semibold bg-indigo-500/10 text-indigo-400 rounded-full border border-indigo-500/20">
-                                Research Preview
+                                研究预览
                             </span>
                         </div>
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            <strong>Reality SAGA Protocol Coordinator:</strong> Orchestrates transactions, heartbeats, and safety overrides to bridge digital steps with physical nodes.
+                            <strong>现实 SAGA 协议协调器：</strong> 编排事务、心跳与安全覆盖，连接数字步骤与物理节点。
                         </p>
                     </div>
-                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">Status: Active Narrative Portal</span>
+                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">状态：活跃叙事门户</span>
                 </div>
 
                 <!-- SONUV.com -->
@@ -128,14 +128,14 @@
                         <div class="flex items-center justify-between">
                             <h3 class="text-2xl font-bold text-white">sonuv.com</h3>
                             <span class="px-2.5 py-0.5 text-xs font-semibold bg-purple-500/10 text-purple-400 rounded-full border border-purple-500/20">
-                                Active Development
+                                积极开发
                             </span>
                         </div>
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            <strong>Cognitive CPU & Palace Memory:</strong> Provides advanced RAG services, multi-channel gateways (Feishu/Telegram), and context-aware intent routing.
+                            <strong>认知 CPU 与记忆宫殿：</strong> 提供高级 RAG 服务、多渠道网关（飞书/Telegram）和上下文感知意图路由。
                         </p>
                     </div>
-                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">Status: Core System Runtime</span>
+                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">状态：核心系统运行时</span>
                 </div>
 
                 <!-- OOPPG.com -->
@@ -144,14 +144,14 @@
                         <div class="flex items-center justify-between">
                             <h3 class="text-2xl font-bold text-white">ooppg.com</h3>
                             <span class="px-2.5 py-0.5 text-xs font-semibold bg-purple-500/10 text-purple-400 rounded-full border border-purple-500/20">
-                                Active Development
+                                积极开发
                             </span>
                         </div>
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            <strong>Resource Optimizer & Scheduler:</strong> Leverages Reinforcement Learning (LinUCB) models to generate optimal device scheduling strategies.
+                            <strong>资源优化器与调度器：</strong> 利用强化学习（LinUCB）模型生成最优设备调度策略。
                         </p>
                     </div>
-                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">Status: Core Scheduler Advisor</span>
+                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">状态：核心调度顾问</span>
                 </div>
 
                 <!-- 9bests.com -->
@@ -160,15 +160,15 @@
                         <div class="flex items-center justify-between">
                             <h3 class="text-2xl font-bold text-white">9bests.com</h3>
                             <span class="px-2.5 py-0.5 text-xs font-semibold bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20">
-                                Production
+                                正式上线
                             </span>
                         </div>
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            <strong>Bilingual AI Reviews Portal:</strong> Evaluates and lists the top 9 performers in each software/SaaS vertical. Actively routes traffic into ecosystem APIs.
+                            <strong>双语 AI 评测门户：</strong> 评估并列出每个软件/SaaS 垂直领域的前 9 名。积极将流量引导至生态 API。
                         </p>
                     </div>
                     <a href="https://9bests.com" target="_blank" class="text-xs text-indigo-400 hover:text-indigo-300 font-semibold mt-6 pt-4 border-t border-gray-900/60 block flex items-center justify-between">
-                        Visit Live Website ↗
+                        访问在线网站 ↗
                     </a>
                 </div>
 
@@ -178,14 +178,14 @@
                         <div class="flex items-center justify-between">
                             <h3 class="text-2xl font-bold text-white">ipipq.com</h3>
                             <span class="px-2.5 py-0.5 text-xs font-semibold bg-emerald-500/10 text-emerald-400 rounded-full border border-emerald-500/20">
-                                Utility / Release
+                                实用工具
                             </span>
                         </div>
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            <strong>AI File Auto Organizer:</strong> Polished desktop cleanup app wrapping automated path classification utilities into a premium consumer tool.
+                            <strong>AI 文件自动整理器：</strong> 精致的桌面清理应用，将自动路径分类工具包装成高端消费级产品。
                         </p>
                     </div>
-                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">Status: Consumer Monetizer ($19 Buy-out)</span>
+                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">状态：消费级变现（¥19 买断）</span>
                 </div>
 
                 <!-- AIUCE.com -->
@@ -194,14 +194,14 @@
                         <div class="flex items-center justify-between">
                             <h3 class="text-2xl font-bold text-white">aiuce.com</h3>
                             <span class="px-2.5 py-0.5 text-xs font-semibold bg-blue-500/10 text-blue-400 rounded-full border border-blue-500/20">
-                                Open Spec
+                                开放规范
                             </span>
                         </div>
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            <strong>Layered AI Governance Blueprint:</strong> Standard specification details for the L0-L10 personal AI sovereignty constitution rules (docs only).
+                            <strong>分层 AI 治理蓝图：</strong> L0-L10 个人 AI 主权宪法规则的标准规范详情（仅文档）。
                         </p>
                     </div>
-                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">Status: Governance Specification Page</span>
+                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">状态：治理规范页面</span>
                 </div>
 
                 <!-- ONNOK.com -->
@@ -210,14 +210,14 @@
                         <div class="flex items-center justify-between">
                             <h3 class="text-2xl font-bold text-white">onnok.com</h3>
                             <span class="px-2.5 py-0.5 text-xs font-semibold bg-blue-500/10 text-blue-400 rounded-full border border-blue-500/20">
-                                Future Extension
+                                未来扩展
                             </span>
                         </div>
                         <p class="text-sm text-gray-400 leading-relaxed">
-                            <strong>Physical AI Declarative OS:</strong> Outlines execution, observation, and temporal binding parameters for hardware integrations (docs only).
+                            <strong>物理 AI 声明式操作系统：</strong> 概述硬件集成的执行、观察和时序绑定参数（仅文档）。
                         </p>
                     </div>
-                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">Status: Robotics Integration Specification</span>
+                    <span class="text-xs text-gray-500 mt-6 pt-4 border-t border-gray-900/60 block">状态：机器人集成规范</span>
                 </div>
             </div>
         </section>
@@ -228,19 +228,19 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
             <!-- Strategic Acquisition Panel -->
             <div class="p-6 rounded-2xl bg-gray-950/30 border border-gray-900 max-w-2xl mx-auto text-center space-y-3">
-                <h4 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">Strategic Domain Inquiries</h4>
+                <h4 class="text-sm font-semibold text-gray-400 uppercase tracking-wider">战略域名咨询</h4>
                 <p class="text-xs text-gray-500 leading-relaxed">
-                    Some conceptual, inactive domain assets in our portfolio (such as <strong>teonu.com</strong>, <strong>aiobn.com</strong>, <strong>aiobr.com</strong>) are available for acquisition. Direct transfers supported via escrow.
+                    我们投资组合中的一些概念性、非活跃域名资产（如 <strong>teonu.com</strong>、<strong>aiobn.com</strong>、<strong>aiobr.com</strong>）可供收购。支持通过托管交易直接转让。
                 </p>
                 <p class="text-xs font-mono">
-                    Contact: <a href="mailto:acquisition@airbq.com" class="text-indigo-400 hover:text-indigo-300 underline font-semibold">acquisition@airbq.com</a>
+                    联系方式：<a href="mailto:acquisition@airbq.com" class="text-indigo-400 hover:text-indigo-300 underline font-semibold">acquisition@airbq.com</a>
                 </p>
             </div>
 
             <!-- Bottom Brand Info -->
             <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs pt-8 border-t border-gray-900/60">
-                <p>&copy; 2026 AIRBQ Domain Portfolio. All rights reserved.</p>
-                <p class="text-gray-600">Designed with Outfit Font & Tailwind CSS</p>
+                <p>&copy; 2026 AIRBQ 域名投资组合。保留所有权利。</p>
+                <p class="text-gray-600">使用 Outfit 字体与 Tailwind CSS 设计</p>
             </div>
         </div>
     </footer>
@@ -255,17 +255,17 @@
         const updateState = (text, className, logText, transactionId = 'TX-SAGA-99824') => {
             badge.textContent = text;
             badge.className = `inline-flex items-center gap-1.5 px-3 py-1 text-xs font-semibold rounded-full border uppercase ${className}`;
-            txid.textContent = `TX-ID: ${transactionId}`;
+            txid.textContent = `事务号: ${transactionId}`;
             log.textContent = logText;
         };
 
         const runSuccessPipeline = () => {
             const steps = [
-                { text: 'INIT', cls: 'bg-blue-500/10 text-blue-400 border-blue-500/20', log: '[0.0s] Initializing transaction ledgers. Setting checkpoint.' },
-                { text: 'VERIFIED', cls: 'bg-amber-500/10 text-amber-400 border-amber-500/20', log: '[0.8s] Verification OK. Temporal & Execution bounds verified.' },
-                { text: 'EXECUTING', cls: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20', log: '[1.5s] Executing command pipeline. Writing data packets...' },
-                { text: 'PARTIAL', cls: 'bg-purple-500/10 text-purple-400 border-purple-500/20', log: '[2.2s] Writing segments. Node verification received.' },
-                { text: 'COMMIT', cls: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20', log: '[3.0s] Transaction COMMITTED. Target directory successfully synchronized.' }
+                { text: '初始化', cls: 'bg-blue-500/10 text-blue-400 border-blue-500/20', log: '[0.0s] 初始化事务账本。设置检查点。' },
+                { text: '已验证', cls: 'bg-amber-500/10 text-amber-400 border-amber-500/20', log: '[0.8s] 验证通过。时序与执行边界已验证。' },
+                { text: '执行中', cls: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20', log: '[1.5s] 执行命令流水线。写入数据包...' },
+                { text: '部分完成', cls: 'bg-purple-500/10 text-purple-400 border-purple-500/20', log: '[2.2s] 写入分段中。收到节点验证。' },
+                { text: '已提交', cls: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20', log: '[3.0s] 事务已提交。目标目录成功同步。' }
             ];
             
             let i = 0;
@@ -281,11 +281,11 @@
 
         const runRollbackPipeline = () => {
             const steps = [
-                { text: 'INIT', cls: 'bg-blue-500/10 text-blue-400 border-blue-500/20', log: '[0.0s] Initializing SAGA state.' },
-                { text: 'EXECUTING', cls: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20', log: '[0.8s] Executing file updates...' },
-                { text: 'PARTIAL', cls: 'bg-purple-500/10 text-purple-400 border-purple-500/20', log: '[1.5s] Segment 2 failed: Read write lock mismatch!' },
-                { text: 'COMPENSATE', cls: 'bg-rose-500/10 text-rose-400 border-rose-500/20', log: '[2.2s] SAGA abort triggered. Compensating transactions running: reverting data nodes...' },
-                { text: 'COMPENSATED', cls: 'bg-amber-500/10 text-amber-400 border-amber-500/20', log: '[3.0s] Rollback successful. System restored safely. No changes committed.' }
+                { text: '初始化', cls: 'bg-blue-500/10 text-blue-400 border-blue-500/20', log: '[0.0s] 初始化 SAGA 状态。' },
+                { text: '执行中', cls: 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20', log: '[0.8s] 执行文件更新...' },
+                { text: '部分完成', cls: 'bg-purple-500/10 text-purple-400 border-purple-500/20', log: '[1.5s] 分段 2 失败：读写锁不匹配！' },
+                { text: '补偿中', cls: 'bg-rose-500/10 text-rose-400 border-rose-500/20', log: '[2.2s] SAGA 中止触发。补偿事务运行中：回滚数据节点...' },
+                { text: '已补偿', cls: 'bg-amber-500/10 text-amber-400 border-amber-500/20', log: '[3.0s] 回滚成功。系统安全恢复。未提交任何更改。' }
             ];
 
             let i = 0;
